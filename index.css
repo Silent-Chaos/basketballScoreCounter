@@ -1,0 +1,38 @@
+
+body{
+    margin: 0;
+    background-color: rgb(59, 59, 59);
+        background-size: cover;
+    text-align: center;
+}
+.scoreBoard{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.team{
+    color: orange;
+    font-weight: 100;
+    font-size: 30px;
+
+}
+#hScore{
+    background: black;
+    color: red;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 100px;
+    margin: 0%;
+    
+    
+    
+}
+
+button{
+    margin-top: 14px;
+    background: none;
+    border-radius: 3px;
+    border-color: aliceblue;
+    color: aliceblue;
+}
