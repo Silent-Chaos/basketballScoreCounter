@@ -4,22 +4,28 @@ body{
     background-color: rgb(59, 59, 59);
         background-size: cover;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+position: relative;
 }
 .scoreBoard{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+   position: relative;
 
 }
 .team{
     color: orange;
     font-weight: 100;
     font-size: 30px;
+    position: relative;
 
 }
 .bbox{
     background: black;
-    color: red;
+    color: rgb(16, 245, 111);
     width: 150px;
     border-radius: 20px;
     font-size: 100px;
@@ -35,4 +41,20 @@ button{
     border-radius: 3px;
     border-color: aliceblue;
     color: aliceblue;
+}
+#foul{
+    
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+
+}
+#hfoul,#gfoul{
+    background: black;
+    color: rgb(240, 78, 57);
+    width: 150px;
+    border-radius: 10px;
+    font-size: 60px;
+    margin: 25px;
 }
