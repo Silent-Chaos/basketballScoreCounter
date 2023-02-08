@@ -3,8 +3,10 @@ let scoreG=document.getElementById("gScore")
 let scoreOn=0
 let onScore=0
 let gf=0
-let gfoulel=document.getElementById("gfoul")
-let hfoulel=document.getElementById("hfoul")
+let hf=0
+let homeFoul=document.getElementById("HGo")
+let guestFoul=document.getElementById("GFo")
+
 function hone(){
 scoreH.textContent=onScore+=1
 }
@@ -29,9 +31,11 @@ function gtwo(){
 function gthree(){
     scoreG.textContent=scoreOn+=3
     }
-function GFoul(){
-gfoulel.textContent=gf+1
+function Hfoul()
+{
+    homeFoul.textContent=gf=gf+=1
 }
-function GFoul(){
-    
+function Gfoul()
+{
+    guestFoul.textContent=hf=hf+=1
 }

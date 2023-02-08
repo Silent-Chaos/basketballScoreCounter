@@ -27,16 +27,18 @@
     </div>
 </div>
 </div>
-<div  id="foul">
-    <button  onclick="HFoul()" class="flbtn"><div  id="hfoul">
-         0
-    </div></button>
-    <div  id="foul">
-    <button onclick="GFoul" class="flbtn"><div id="gfoul" >
-            0
-        </div></button>
+<div  class="foul">
+    <div id="hfoul" class="flbtn"  >
+        
+         <span id="HGo" class="f0">0</span class="f0">
+            <button id="HFbut" onclick="Hfoul()">Foul</button>
     </div>
-</div>
+        <div id="gfoul" class="flbtn" >
+           <span id="GFo" class="f0">0</span class="f0"> 
+            <button id ="GFbut" onclick="Gfoul()">Foul</button>
+        </div>
+
+    </div>
 <script src="index.js"></script>
 </body>
 </html>

@@ -12,7 +12,6 @@ position: relative;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
    position: relative;
 
 }
@@ -45,31 +44,35 @@ position: relative;
     background-color: black;
     
 }
-#foul{
+.flbtn{
+    background-color: black;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+padding-bottom: 8px;
+    color:red;
     
+    
+}
+.foul{
     display: flex;
     justify-content: space-around;
-    position: relative;
-
-
+    cursor: pointer;
 }
-#hfoul,#gfoul{
-    background: black;
-    color: rgb(240, 78, 57);
-    /* width: 150px;
-    border-radius: 10px;
-    font-size: 60px;
-    margin: 25px;
-    border-color:aliceblue;
-    border-style: solid; */
-}
-.flbtn{
-    width: 150px;
-    border-radius: 10px;
-    background-color: black;
-    font-size: 60px;
-
-    margin: 25px;
-    border-color:aliceblue;
+#GFbut,#HFbut{
+    display: block;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: brown;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 30px;
     border-style: solid;
+    border-color: aliceblue;
 }
