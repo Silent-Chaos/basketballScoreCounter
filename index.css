@@ -85,18 +85,18 @@ padding-bottom: 8px;
 }
 #mar{
     border: 1px solid aliceblue;
-    margin-top: -3px;
     width: 21vw;
     background-color: black;
     border-radius: 6px;
     height: 8vh;
+    padding-top:15px;
 }
-#sec{
+#sec,#tens{
     color: brown;
     font-size: 35px;
     margin-top:10px;
     
-    display: block;
+    display: inline;
 
 
 }
