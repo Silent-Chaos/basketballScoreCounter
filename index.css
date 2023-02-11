@@ -121,3 +121,20 @@ padding-bottom: 8px;
    margin-top: -9px;
 }
 
+
+#per{
+    
+    
+    background-color: black;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+padding: 10px;
+    color:red;
+    
+}
