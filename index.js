@@ -67,10 +67,10 @@ BTNreset.addEventListener('click',()=>{
 });
 function startTime(){
     tens++;
-    if(tens<=9){
+    if(tens<=1){
     OutputTens.innerHTML=":" +"0"+tens;
 }
-if(tens>10){
+if(tens>1){
     OutputTens.innerHTML=":" +tens;
 
 }
@@ -81,7 +81,7 @@ if(tens>99){
     OutputTens.innerHTML=":" +"0"+tens;
 
 }
-if(seconds>9){
+if(seconds>1){
     OutputSeconds.innerHTML=seconds;
 
 }
